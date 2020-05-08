@@ -1,5 +1,5 @@
 # An Arduino/Processing Platformer
-The fourth project submission for the Direct Cinema Media Fabrics course offered at the University of Virginia.
+The fourth/final project submission for the Direct Cinema Media Fabrics course offered at the University of Virginia.
 
 
 ### Hardware Setup

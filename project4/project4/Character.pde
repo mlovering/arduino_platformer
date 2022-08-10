@@ -4,8 +4,8 @@ class Character {
   
   int fr = 3;
   
-  int locX = 100;
-  int locY = 100;
+  int locX = 500;
+  int locY = 500;
   boolean moveUp = false;
   boolean moveDown = false;
   boolean moveRight = false;

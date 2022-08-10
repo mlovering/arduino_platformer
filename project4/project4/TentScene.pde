@@ -1,11 +1,10 @@
 class TentScene {
-  int characterStartX = 500;
-  int characterStartY = 500;
   
   PImage tentTop;
   PImage tentTopBeams;
   PImage tentBottom;
   PImage tentBottomBeams;
+  
   
   TentScene() {
     tentTop = loadImage("tent/tentTop_B.png");
@@ -18,14 +17,11 @@ class TentScene {
     image(tentTop, 100, -200, 800,800);
     image(tentBottom, 100, height-228,800,800);
   }
-  
-  void drawSceneObjects() {
-    
-  }
-  
+
   void drawSceneForeground() {
     image(tentTopBeams, 100, -12, 800,800);
     image(tentBottomBeams, 96, 560,800,800);
+    
   }
   
   
